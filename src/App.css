@@ -1,0 +1,100 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  color: #333;
+}
+
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.confirmation-page{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+
+.confirmation-page h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.confirmation-page p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.confirmation-page strong {
+  font-weight: 600;
+}
+
+.confirmation-page button {
+  margin-top: 30px;
+  padding: 8px 20px;
+  font-size: 15px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;               /* 👈 Keeps it small */
+  min-width: 120px;
+}
+
+
+.confirmation-page  button:hover {
+  background-color: #45a049;
+}
